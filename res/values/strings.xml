@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Katana N Balls</string>
+    <string name="play">Play</string>
+    <string name="highest">Highest</string>
+    <string name="score">Score 0</string>
+    <string name="resume">resume</string>
+    <string name="quit">quit</string>
+    <string name="your_score">Your Score</string>
+    <string name="empty_string"></string>
+    <string name="new_best">You set new best!</string>
+    <string name="best_score">Best Score</string>
+    <string name="touch_blade">Touch \nBlade</string>
+        
+</resources>

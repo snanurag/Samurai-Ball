@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:id="@+id/main">
+
+    <min3d.core.CustomGLSurfaceView
+        android:id="@+id/glview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="40dp"
+        android:paddingTop="80dp"
+        android:text="@string/play"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/highest"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="180dp"
+        android:paddingTop="80dp"
+        android:text="@string/highest"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/scores"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/score"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/your_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="80dp"
+        android:text="@string/your_score"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/new_best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="60dp"
+        android:text="@string/new_best"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:visibility="gone" />
+    
+    <TextView
+        android:id="@+id/best_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="80dp"
+        android:text="@string/best_score"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+        <TextView
+        android:id="@+id/touch_blade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="320dp"
+        android:paddingLeft="90dp"
+        android:text="@string/touch_blade"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:visibility="gone" />
+    
+    <TextView
+        android:id="@+id/score_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="130dp"
+        android:text="@string/empty_string"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+</FrameLayout>
